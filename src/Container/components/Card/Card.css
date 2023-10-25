@@ -1,0 +1,21 @@
+.ant-tabs-tab{
+    width: 100px;
+    background: none;
+    border: none;
+   display: flex;
+   justify-content: center;
+  
+    
+}
+
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-tab-active, .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab-active{
+    background : none;
+    border: 1px solid green;
+    color: green;
+    border-bottom: 1px solid green;
+}
+
+
+ .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color:green;       
+}
